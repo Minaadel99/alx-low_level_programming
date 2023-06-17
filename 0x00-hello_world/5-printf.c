@@ -3,9 +3,9 @@
 /**
  * main - Entry point
 
- * Description :A C program that prints with printf function
+ * Description: A C program that prints with printf function
 
- * Return :Almwaysb 0(success)
+ * Return :Almways 0 (success)
 
 */
 
