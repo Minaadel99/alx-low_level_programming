@@ -1,15 +1,22 @@
-#include <time.h>
+#include <stdio.h>
 /**
- * main - prints the alphabet in lowercase, and then in uppercase
+ * main - prints the alphabet in lowercase and in uppercase
  * REturn: Always 0 (success)
 */
 int main(void)
 {
-char low;
-for (low = 'a'; low <= 'z'; low++)
-putchar(low);
-for (low = 'A'; low <= 'Z'; low++)
-putchar(low);
-putchar('\n');
+int n = 97;
+int m = 65;
+while (n <= 122)
+{
+putchar(n);
+n++;
+}
+while (m <= 90)
+{
+putchar(m);
+m++;
+}
+putchar('\n);
 return (0);
 }
