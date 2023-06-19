@@ -12,7 +12,7 @@ while (d1 <= 99)
 d2 = d1;
 while (d2 <= 99)
 {
-if (d2 !+ d1)
+if (d2 != d1)
 {
 putchar((d1 / 10) + 48);
 putchar((d1 % 10) + 48);
