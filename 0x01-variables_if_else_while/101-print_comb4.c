@@ -1,38 +1,33 @@
 #include <stdio.h>
+
 /**
- * main -Entry point
- * Description: prin all possible different combinations of two digits
- * Return: Always 0 (success)
-*/
+ * main - prints all possible different combinations of three digits
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-int d1 = 0;
-int d3, d2;
-while (d1 <= 9)
-{
-d2 = 0;
-while (d2 <= 9)
-{
-d3 = 0;
-while (d3 <= 9)
-{
-if (d1 != d2 && d1 < d2 && d2 != d3 && d2 < d3)
-{
-putchar(d1 + 48);
-putchar(d2 + 48);
-putchar(d2 + 48);
-if (d1 + d2 + d3 != 24)
-{
-putchar(',');
-putchar(' ');
-}
-}
-d3++;
-}
-d2++;
-}
-d1++;
-}
-putchar('\n');
-return (0);
+	int n, m, l;
+
+	for (n = 48; n < 58; n++)
+	{
+		for (m = 49; m < 58; m++)
+		{
+			for (l = 50; l < 58; l++)
+			{
+				if (l > m && m > n)
+				{
+					putchar(n);
+					putchar(m);
+					putchar(l);
+					if (n != 55 || m != 56)
+					{
+						putchar(',');
+						putchar(' ');
+					}
+				}
+			}
+		}
+	}
+	putchar('\n');
+	return (0);
 }
