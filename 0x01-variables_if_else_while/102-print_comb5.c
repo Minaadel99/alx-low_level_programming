@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * Description: write a programe that prints all possible differenet combinations of twp digits
+ * Description: write a programe that prints all possible differenet
  * Return: 0
 */
 int main(void)
