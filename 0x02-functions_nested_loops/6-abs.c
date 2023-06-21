@@ -4,7 +4,7 @@
  * @n: takes in integer type input for function
  * Return: Always 0 (success)
 */
-int _abc(int n)
+int _abs(int n)
 {
 if (n < 0)
 {

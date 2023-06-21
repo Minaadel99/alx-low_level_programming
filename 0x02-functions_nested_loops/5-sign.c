@@ -16,7 +16,7 @@ else if (n == 0)
 _putchar(48);
 return (0);
 }
-else 
+else
 {
 _putchar(45);
 return (-1);
