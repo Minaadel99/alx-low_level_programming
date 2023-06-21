@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_to_98 - print n to 98 counts separated by comma, followed by space and number should be printed in order
+ * print_to_98 - print n to 98 counts separated by comma, followed by space and number
  * @n: input
 */
 void print_to_98(int n)
@@ -19,6 +19,6 @@ for (count = n; count < 98; count++)
 {
 printf("%d, ", count);
 }
-printf("98\n");
 }
+printf("98\n");
 }
