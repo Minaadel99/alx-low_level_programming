@@ -1,4 +1,4 @@
-#incude "main"
+#include "main"
 /**
  * times_table - prints the 9 times table
  * Exanple Table
@@ -17,9 +17,13 @@ _putchar(',');
 _putchar(' ');
 prod = num * mult;
 if (prod <= 9)
-	_putchar(' ');
+{
+_putchar(' ');
+}
 else
-	_putchar((prod / 10) + 48);
+{
+_putchar((prod / 10) + 48);
+}
 _putchar((prod % 10) + 48);
 }
 _putchar('\n');
