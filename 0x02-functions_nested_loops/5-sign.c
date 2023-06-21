@@ -17,7 +17,7 @@ _putchar(48);
 return (0);
 }
 return (0);
-else
+else if 
 {
 _putchar(45);
 return (-1);
