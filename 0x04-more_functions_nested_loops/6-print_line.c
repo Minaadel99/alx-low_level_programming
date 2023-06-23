@@ -6,8 +6,11 @@
 void print_line(int n)
 {
 	int lncahr;
+
 	if (n <= 0)
+	{
 		_putchar('\n');
+	}
 	else
 	{
 		for (lnchar = 1; lnchar <= n; lnchar++)
