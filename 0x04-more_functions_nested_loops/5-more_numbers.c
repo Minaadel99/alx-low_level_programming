@@ -19,4 +19,6 @@ for (r = 1; r <= 10; r++)
 		_putchar(n + 48);
 	}
 	_putchar('\n');
+
+}
 }
