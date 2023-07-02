@@ -1,4 +1,4 @@
-#incude "main.h"
+#include "main.h"
 /**
  * _strcat - functionthat concatenates two strings
  * @dest: pointer to destnation input
