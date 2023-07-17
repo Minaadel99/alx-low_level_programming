@@ -1,7 +1,7 @@
 #ifndef DOG_H
 #define DOG_H
 /**
- * struct dog - init a variable
+ * struct_dog - init a variable
  * @d: pointer to struct dog
  * @name: name
  * @age: age
