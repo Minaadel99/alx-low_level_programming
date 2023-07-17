@@ -8,7 +8,7 @@
  * @owner: owner
  * Description: just a lone gog
  */
-struct dog
+struct *dog
 {
 	char *name;
 	float age;
